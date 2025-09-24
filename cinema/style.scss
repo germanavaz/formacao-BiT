@@ -1,0 +1,26 @@
+/* seletor { propriedade: valor; }
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 150px;
+}
+
+.titulo {
+  color: blue
+}
+
+#btn1 {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
