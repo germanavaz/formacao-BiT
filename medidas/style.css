@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.caixa {
+  background-color: goldenrod;
+  border: solid 3px brown;
+  text-align: center;
+}
+
+.box-fixa {
+  width: 300px;
+  height: 150px;
+}
+
+.box-porcentagem {
+  width: 80%;
+  height: 100px;
+}
+
+.box-viewport {
+  width: 50vw;
+  height: 30vh;
+}
+
+.box-rem {
+  font-size: 2rem;
+}/*# sourceMappingURL=style.css.map */
