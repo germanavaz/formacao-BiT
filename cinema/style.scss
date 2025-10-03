@@ -8,15 +8,32 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: black;
+
+  h1 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Gravitas One", serif;
+  }
+}
+
+.card {
+
+  h2 {
+    font-weight: 400;
+  }
+}
 img {
   width: 150px;
 }
 
-.titulo {
-  color: blue
-}
-
-#btn1 {
+button {
   background-color: green;
   color: white;
   border: none;
