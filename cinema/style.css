@@ -13,12 +13,35 @@ body {
 
 header {
   background-color: black;
+  text-align: center;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 20px;
 }
 header h1 {
   color: white;
-  text-align: center;
   padding: 20px 0;
   font-family: "Gravitas One", serif;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 5px;
+}
+
+main {
+  background-color: #f0f0f0;
+}
+main .banner {
+  background-image: url("https://img.freepik.com/vetores-gratis/cartaz-de-tempo-de-filme-de-cinema-horizontal-realista-com-carretel-de-badalo-de-bilhetes-de-lanches-de-oculos-3d-em-fundo-azul-com-ilustracao-vetorial-bokeh_1284-77013.jpg");
+  height: 45vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .card h2 {
