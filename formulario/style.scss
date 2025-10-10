@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    // border: solid;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+img {
+    height: 50vh;
+    border-radius: 10px 0 0 10px;
+}
+
+.formulario {
+    // border: solid;
+    width: 30vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+    padding: 25px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    img {
+        display: none;
+    }
+    
+    .formulario {
+        width: 80vw;
+        margin: 10px 0;
+    }
+}
