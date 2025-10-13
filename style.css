@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #0d0d0d;
+  text-align: center;
+  color: aliceblue;
+}
+header nav {
+  padding: 1rem 0 0 0;
+}
+header li {
+  list-style: none;
+  display: inline;
+  margin: 0 15px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+header a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 5px;
+}
+header a:hover {
+  text-decoration: underline;
+}
+header h1 {
+  padding: 1rem;
+}/*# sourceMappingURL=style.css.map */
